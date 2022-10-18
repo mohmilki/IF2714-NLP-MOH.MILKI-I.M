@@ -69,3 +69,33 @@ diperoleh hasil acuracy score 0.7544444444444445 atau 75%
 
 ## PR6-Running Code Analisis Sentimen Vaksinasi di Twitter
 
+1. Melihat plot tweet yang mengandung kata 'pfizer' dan 'trump'
+
+![TUGAS6-Hasil sentiment yang mengandung kata pfizer dan trump](https://user-images.githubusercontent.com/73022578/196365936-b591ef4d-f484-40fa-9693-cf75b68946ab.png)
+
+2. Melihat plot tweet yang mengandung kata 'science' dan 'fake'
+
+![TUGAS6-Hasil sentiment yang mengandung kata science dan fake](https://user-images.githubusercontent.com/73022578/196366095-b5579dc4-a303-4535-9999-2e690234268d.png)
+
+3. Melihat plot tweet keseluruhan
+
+![TUGAS6-Hasil sentiment seluruh kata](https://user-images.githubusercontent.com/73022578/196366188-8b609acd-3681-45c1-abf8-d90def3754ee.png)
+
+4. Melihat plot tweet dari bulan desember sampai februari
+
+![TUGAS7-Hasil sentiment yang berdasarkan tanggal](https://user-images.githubusercontent.com/73022578/196366400-9edd8c51-8be7-40b9-8c31-1f1f8f75f2f6.png)
+
+5. Melihat polarity sentiment tweet berdasarkan tanggal
+
+![TUGAS7-polarity tweet berdasarkan tanggal](https://user-images.githubusercontent.com/73022578/196366510-99dbac70-c8d5-4977-8a7a-dd6c80d86831.png)
+
+6. Melihat diagram garis tweet berdasarkan tanggal
+
+![TUGAS7-diagram garis berdasarkan jumlah persebaran tweet dari tanggalnya](https://user-images.githubusercontent.com/73022578/196366760-9a679c8a-b8e0-43bd-87d6-f17c36e7b806.png)
+
+## PR7-Running Code Analisis Modelling (clustering topic) untuk Amazon Review
+
+Hasil clustering masing-masing topik (yang terdiri atas 7 topik)
+
+![image](https://user-images.githubusercontent.com/73022578/196368106-44fc471a-b1e8-4f1f-a44f-516df097dd3c.png)
+
