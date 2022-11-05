@@ -20,6 +20,7 @@ Pada gambar diatas terdapat 5 kata teratas (yang telah dijelaskan sebelumnya), d
 ![image](https://user-images.githubusercontent.com/73022578/200123018-29949888-e485-485c-a408-c4cdfef5282f.png)
 
 2. 10 (Sepuluh) kata teratas yang sering muncul
+
 ![image](https://user-images.githubusercontent.com/73022578/200123053-f023c404-5718-4b15-a43d-0e1ba56e2c4c.png)
 
 Kesimpulan hasil analisis :
