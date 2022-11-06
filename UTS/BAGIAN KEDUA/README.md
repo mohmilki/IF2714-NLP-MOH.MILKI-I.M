@@ -1,18 +1,36 @@
-# TOPIC MODELLING PADA Reviews_Filter.csv DENGAN LDA
+# TOPIC MODELLING Reviews_Filter.csv DENGAN bertopic
+## Visualisasi data dengan jumlah topik default
+### Visualisasi dengan plot
 
-Berikut hasil gambaran klaster topik dengan pyLDAvis
+![newplot](https://user-images.githubusercontent.com/73022578/200168411-88553c67-147e-4841-aee1-59642c911e56.png)
 
-![image](https://user-images.githubusercontent.com/73022578/200147333-7c2db3a0-60b1-4586-9de7-872ad364e69e.png)
+Dari persebaran data tersebut dapat diketahui bahwa total topic yang dapat dibentuk dengan default yaitu 173 topic. 
 
-Berdasarkan gambar tersebut dapat dilihat terdapat 20 klaster yang menunjukkan jumlah topik yang terdapat pada isi data Reviews_Filter.csv tersebut. Pada gambar tersebut juga bisa dilihat jika masing-masing klaster juga ada yang beririsan satu sama lain dan ada yang terpisah. Klaster yang beririsan satu sama lain menunjukkan bahwa antara topik tersebut terdapat kata-kata sama yang digunakan. Sedangkan untuk klaster yang terpisah (tidak ada irisan dengan klaster lain) menunjukkan bahwa topik tersebut independen atau tidak ada kata-kata yang sama dengan klaster lainnya. 
+Misalka do sorot pada satu plot, maka akan muncul topic sebagai berikut :
 
-Jika diambil salah satu klaster yang terpisah (misal diambil yang no 4), dapat dilihat hasil sebagai berikut :
+![image](https://user-images.githubusercontent.com/73022578/200168547-34a0370c-18a2-45f1-bb40-0629da854953.png)
 
-![image](https://user-images.githubusercontent.com/73022578/200148254-55b40238-52af-4267-aa57-a5b66560b89a.png)
+Dari gambar tersebut, dapat disimpulkan bahwa pada topic tersebut membahas terkait daging-dagingan, seperti bacon, pork. Selain itu, isi topic tersebut membahas tentang cook dan rinds, yang berarti berkaitan dengan goreng-gorengan dan makanan kering.
 
-Berdasarkan analisa dari klaster tersebut, dapat dianalisis hasil sebagai berikut :
+### Visualisasi dengan bar chart
 
-1. Kata-kata yang yang sering muncul teratas yaitu, treat, food, dog. Selain itu, terdapat juga kata product, healty, cat. Maka secara umum dapat disimpulkan bahwa pada klaster 4 tersebut topik yang dibahas mengenai makanan dan hewan (yang terdiri atas atas makanan hewan).
-2. Terdapat kata lain juga yang sering muncul yang menyangkut review (ADJ) seperti good dan happy, sehingga secara umum dapat disimpulkan bahwa review konsumen terhadap prosuk tersebut positif.
+![newplot (1)](https://user-images.githubusercontent.com/73022578/200168784-728a6e1a-b21e-4d21-9951-c9a14ad094a6.png)
 
-Selain itu, Perplexity pada model tersebut -7.6316629823013775 dan Coherence score 0.3683066923002187. Perplexity tersebut menunjukan minus yang berarti pemodelan distribusi probabilitas topik tersebut sudah bagus. Selain itu, nilai coherence menunjukkan nilai yang sudah sesuai.
+Dari bar chart tersebut dapat diperoleh informasi. Contohnya pada topic 0, membahas mengenai minuman (seperti jus dan soda) dan  buah-buahan.
+
+## Visualisasi data dengan jumlah 20 topik
+### Visualisasi dengan plot
+
+![newplot (2)](https://user-images.githubusercontent.com/73022578/200168993-2958c1d3-70c8-4455-9d37-21528ab7dcea.png)
+
+Dari persebaran plotting tersebut dapat diketahui jika total plotting yang ada sebanyak 20 titik yang menunjukkan 20 topik. Misal disorot salah satu plot seperti berikut :
+
+![image](https://user-images.githubusercontent.com/73022578/200169081-a5783ebb-f95a-42b4-91e7-e897d8ddf318.png)
+
+Dari data tersebut diperoleh kata-kata seperti milk, formula, goat, goats, baby. Bisa dikatakan bahwa pembahasan pada topik tersebut bisa terkait susu, susu domba dan susu anak.
+
+### Visualisasi dengan bar chart
+
+![newplot (3)](https://user-images.githubusercontent.com/73022578/200169193-5c80a421-d0bf-4ce4-8a55-72b283c34a36.png)
+
+Jika dilihat pada salah satu topik (yaitu topic 3) dapat disimpulkan bahwa pada topic tersebut membahas terkait coklat, kopi dan mesin kopi (secara umu membahas mengenai minuman atau produk kafein).
